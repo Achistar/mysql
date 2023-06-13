@@ -12,7 +12,7 @@
     String inputData = request.getParameter("inputData");
 
     // Database connection details
-    String url = "jdbc:mariadb://172.17.0.2:3306/sumit"; // Replace with your MySQL database URL
+    String url = "jdbc:mariadb://172.17.0.3:3306/sumit"; // Replace with your MySQL database URL
     String username = "root"; // Replace with your MySQL username
     String password = "123"; // Replace with your MySQL password
 
