@@ -12,7 +12,7 @@
 
     <%-- Display a form with an input field and a submit button --%>
     <form method="post" action="mysql.jsp">
-        <input type="text" name="inputData" placeholder="Enter data">
+        <input type="text" name="inputData" placeholder="Enter input data">
         <input type="submit" value="Submit">
     </form>
 
