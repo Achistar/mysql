@@ -13,7 +13,7 @@
     
 
     // Database connection details
-    String url = "jdbc:mysql://172.17.0.3:3306/sumit"; // Replace with your MySQL database URL
+    String url = "jdbc:mysql://mariadb-service:3306/sumit"; // Replace with your MySQL database URL
     String username = "root"; // Replace with your MySQL username
     String password = "123"; // Replace with your MySQL password
    
