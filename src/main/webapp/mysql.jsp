@@ -13,7 +13,7 @@
     
 
     // Database connection details
-    String url = "jdbc:mysql://mariadb-service:3306/sumit"; // Replace with your MySQL database URL
+    String url = "jdbc:mysql://mariadb-service:3306/ACHI"; // Replace with your MySQL database URL
     String username = "root"; // Replace with your MySQL username
     String password = "123"; // Replace with your MySQL password
    
@@ -26,7 +26,7 @@
         // Establish a connection to the MySQL database
         Connection conn = DriverManager.getConnection(url, username, password);
         Statement st1=conn.createStatement();
-       String InsertQuery = "insert into EMP (name) values('"+inputData+"');";
+       String InsertQuery = "insert into EMP (NAME) values('"+inputData+"');";
        st1.executeUpdate(InsertQuery);
 
         // Perform database operations with the retrieved data
