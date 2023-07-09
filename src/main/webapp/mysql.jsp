@@ -13,7 +13,7 @@
     
 
     // Database connection details
-    String url = "jdbc:mysql://54.167.143.175/ACHI"; // Replace with your MySQL database URL
+    String url = "jdbc:mysql://54.167.143.175:3306/ACHI"; // Replace with your MySQL database URL
     String username = "root"; // Replace with your MySQL username
     String password = "123"; // Replace with your MySQL password
    
